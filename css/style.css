@@ -170,16 +170,13 @@ p {
 
 .features {
     display: flex;
+    width: 100vw;
 
 }
 .box {
     flex: 1;
     text-align: center;
     padding: 50px;
-}
-
-.box p {
-    white-space: nowrap; 
 }
 
 /* About section */
@@ -313,8 +310,10 @@ p {
     padding-bottom: 5px;
 }
 
-.contact-info p {
+.contact-info .box p {
+    white-space: nowrap; 
     font-size: 12px;
+
 }
 
 /* Footer */
